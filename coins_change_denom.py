@@ -1,3 +1,4 @@
+#O(n*denoms), O(n)
 def coins(n,denoms):
     ways=[0 for amount in range(n+1)]
     ways[0]=1
